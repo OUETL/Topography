@@ -32,6 +32,7 @@ Downloads digital elevation data from the [OpenTopography](https://opentopograph
 
 - Python 3
 - [`requests`](https://pypi.org/project/requests/2.7.0/) module (via e.g., `pip3 install requests`)
+- [`PIL/pillow`](https://pypi.org/project/Pillow/) module (via e.g., `pip3 install pillow`)
 
 
 ### Usage
