@@ -187,7 +187,7 @@ Combine digital elevation data (in the form of a [GeoTIFF](https://earthdata.nas
 
 The GeoTIFF processing technically requires [`numpy`](https://numpy.org/), but this should be installed automatically by the 'rasterio' module.
 
-Important note: When using a Windows system, the binary libraries for `GDAL` and `rasterio` are required as well as the Python wrappers; please note the Windows installation instructions [here](https://rasterio.readthedocs.io/en/latest/installation.html). This will typically require downloading the appropriate `.whl` files (as linked to from the [Windows installation instructions](https://rasterio.readthedocs.io/en/latest/installation.html)); for example, if you're using a 64-bit Windows and Python 3.7, the files `GDAL-3.3.3-cp37-cp37m-win_amd64.whl` and `rasterio-1.2.10-cp37-cp37m-win_amd64.whl` are likely the ones you need! If you download them to some convenient place, you can install the required binaries via e.g.:
+*Important note*: When using a Windows system, the binary libraries for `GDAL` and `rasterio` are required as well as the Python wrappers; please note the Windows installation instructions [here](https://rasterio.readthedocs.io/en/latest/installation.html). This will typically require downloading the appropriate `.whl` files (as linked to from the [Windows installation instructions](https://rasterio.readthedocs.io/en/latest/installation.html)); for example, if you're using a 64-bit Windows and Python 3.7, the files `GDAL-3.3.3-cp37-cp37m-win_amd64.whl` and `rasterio-1.2.10-cp37-cp37m-win_amd64.whl` are likely the ones you need! If you download them to some convenient place, you can install the required binaries via e.g.:
 
 ```
 $ pip3 install -U pip
